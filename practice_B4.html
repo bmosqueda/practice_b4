@@ -5,13 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <style>
+      .card-image {
+        width: 100%;
+        height: 13rem;
+      }
+    </style>
 
     <title>Practice B4</title>
   </head>
   <body>
     <div class="container-fluid bg-primary">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
         <a class="navbar-brand ml-5" href="#">Boostrap</a>
+        <button
+          class="navbar-toggler" 
+          type="button" 
+          data-toggle="collapse" 
+          data-target="#navbarSupportedContent" 
+          aria-controls="navbarSupportedContent" 
+          aria-expanded="false" 
+          aria-label="Toggle navigation"
+        ><span class="navbar-toggler-icon"></span></button>
+
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto mr-5">
@@ -43,7 +60,7 @@
       </nav>
     </div>
 
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide mb-4" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -82,8 +99,125 @@
       </a>
     </div>
 
-    <div class="container">
-        
+    <div class="container mb-5">
+      <div class="row">
+        <div class="col-12 text-center mx-auto mb-3">
+          <h1 class="display-4">Lorem, impsum dolor.</h1>
+          <blockquote class="blockquote text-info">
+            <p class="mb-0">Proident ea culpa pariatur exercitation labore officia ad adipisicing incididunt reprehenderit reprehenderit fugiat magna tempor officia nostrud irure dolor enim velit eiusmod proident do ullamco aliqua qui eiusmod in ut labore mollit aute proident enim velit.</p>
+          </blockquote>
+        </div>
+        <div class="col-12 col-md-4 mb-3">
+          <div class="card">
+            <img src="images/slide1.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-info ">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mb-3">
+          <div class="card">
+            <img src="images/slide1.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-info ">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mb-3">
+          <div class="card">
+            <img src="images/slide1.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-info ">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="jumbotron">
+          <h1 class="display-4">Hello, world!</h1>
+          <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+          <hr class="my-4">
+          <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+          <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+        </div>
+        <div class="col-12 text-center mx-auto mb-3">
+          <h1 class="display-4">Lorem, impsum dolor.</h1>
+          <blockquote class="blockquote text-info">
+            <p class="mb-0">Proident ea culpa pariatur exercitation labore officia ad adipisicing incididunt reprehenderit reprehenderit fugiat magna tempor officia nostrud irure dolor enim velit eiusmod proident do ullamco aliqua qui eiusmod in ut labore mollit aute proident enim velit.</p>
+          </blockquote>
+        </div>
+        <div class="col-12 col-md-6 mb-sm-3">
+          <div class="accordion" id="accordionExample">
+            <div class="card">
+              <div class="card-header bg-info" id="headingOne">
+                <h2 class="mb-0">
+                  <button class="btn text-white" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Collapsible Group Item #1
+                  </button>
+                </h2>
+              </div>
+
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header bg-info" id="headingTwo">
+                <h2 class="mb-0">
+                  <button class="btn text-white collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Collapsible Group Item #2
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header bg-info" id="headingThree">
+                <h2 class="mb-0">
+                  <button class="btn text-white collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Collapsible Group Item #3
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="card-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="card">
+            <img src="images/slide1.jpg" class="card-img-top">
+            <div class="card-header bg-info text-white">Header</div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Cras justo odio</li>
+              <li class="list-group-item">Dapibus ac facilisis in</li>
+              <li class="list-group-item">Vestibulum at eros</li>
+              <li class="list-group-item">Eiusmod enim.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container-fluid">
+      <div class="row mt-5">
+        <div class="col-12 bg-dark text-center mx-auto">
+          <p class="text-white mt-3 mb-3"><strong>Dolore qui in dolore cupidatat sed eiusmod ut ea nostrud ullamco irure occaecat laborum <br> consequat sint consequat occaecat incididunt labore cupidatat sit.</strong></p>
+        </div>
+      </div>
     </div>
     
     <script src="js/jquery.slim.min.js"></script>
