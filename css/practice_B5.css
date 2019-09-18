@@ -1,0 +1,92 @@
+.font-sm {
+  font-size: 1rem;
+}
+.nav-logo {
+  width: 105px;
+  height: auto;
+}
+.nav-sm-logo {
+  width: 46px;
+  height: auto;
+}
+.ml-20per {
+  margin-left: 20%;
+}
+.bg-strong-danger {
+  background-color: #c10606;
+}
+.btn-burger {
+  width: 57px;
+  height: 40px;
+}
+@media (max-width: 768px) {
+  .hide-on-sm {
+    display: none;
+  }
+}
+
+/*From Marca.com*/
+.team-img {
+  width: 40px;
+  height: 40px;
+  background-image: url(https://e00-marca.uecdn.es/assets/v16/img/sprites/teams-mx-sb89cd43f82.png);
+  background-repeat: no-repeat;
+}
+img[src=""] { content:url("data:image/gif;base64,R0lGODlhAQABAPAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="); }
+.teams-america {
+  background-position: 0 0;
+}
+.teams-atlas {
+  background-position: 0 -39px;
+}
+.teams-atletico-san-luis {
+  background-position: 0 -79px;
+}
+.teams-cruz-azul {
+  background-position: 0 -159px;
+}
+.teams-guadalajara-mx {
+  background-position: 0 -199px;
+}
+.teams-juarez {
+  background-position: 0 -239px;
+}
+.teams-leon {
+  background-position: 0 -278px;
+}
+.teams-monarcas {
+  background-position: 0 -358px;
+}
+.teams-monterrey {
+  background-position: 0 -398px;
+}
+.teams-necaxa {
+  background-position: 0 -438px;
+}
+.teams-pachuca {
+  background-position: 0 -478px;
+}
+.teams-puebla {
+  background-position: 0 -518px;
+}
+.teams-pumas {
+  background-position: 0 -558px;
+}
+.teams-queretaro {
+  background-position: 0 -598px;
+}
+.teams-santos {
+  background-position: 0 -638px;
+}
+.teams-tigres {
+  background-position: 0 -678px;
+}
+.teams-tijuana {
+  background-position: 0 -718px;
+}
+.teams-toluca {
+  background-position: 0 -758px;
+}
+.teams-veracruz {
+  background-position: 0 -798px;
+}
