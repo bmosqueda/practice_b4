@@ -5,7 +5,6 @@ let formSearch = document.getElementById('formSearch');
 
 window.addEventListener("scroll", (event) => {
   if(document.documentElement.scrollTop === 0) {
-    console.log('Estás hasta arriba')
     if(isNavChanged) {
       isNavChanged = false;
       revertNavbar();
@@ -26,15 +25,13 @@ document.body.scrollTop = 0;
 document.documentElement.scrollTop = 0;
 
 function changeNavbar() {
-  console.log('changeNavbar')
   navMain.parentElement.classList[ 'add' ]('fixed-top');
   formSearch.innerHTML = getLoginButtonsTemplate();
   navMainOptions.innerHTML = getLogoItemTemplate() + navMainOptions.innerHTML;
 }
 
 function revertNavbar() {
-  console.log('revertNavbar')
-  navMain.parentElement.classList[ 'remove' ]('fixed-top')
+  navMain.parentElement.classList[ 'remove' ]('fixed-top');
   formSearch.innerHTML = getSearchTemplate();
   navMainOptions.removeChild(navMainOptions.firstChild);
 }
