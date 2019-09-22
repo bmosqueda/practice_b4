@@ -1,3 +1,32 @@
+.facebook-color {
+  color: #3b5998;
+}
+.twitter-color {
+  color: #00acee;
+}
+.google-color {
+  color: #db4a39;
+}
+.rss-color {
+  color: #ee802f;
+}
+hr.white {
+  border: 1px solid white !important;
+}
+.middle-nav {
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-width: 1px;
+}
+.tiny-font {
+  font-size: 0.8rem !important;
+}
+.gray {
+  color: gray !important;
+}
+.f-black {
+  color: black !important;
+}
 .border-black {
   border-color: black;
 }
@@ -49,7 +78,7 @@
 .team-img {
   width: 40px;
   height: 40px;
-  background-image: url(https://e00-marca.uecdn.es/assets/v16/img/sprites/teams-mx-sb89cd43f82.png);
+  background-image: url(../images/marca/teams-mx.png);
   background-repeat: no-repeat;
 }
 img[src=""] { content:url("data:image/gif;base64,R0lGODlhAQABAPAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="); }
